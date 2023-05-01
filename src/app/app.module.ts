@@ -4,6 +4,7 @@ import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { BackgroundComponent } from './background/background.component';
+import { AppRoutingModule } from './app/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BackgroundComponent } from './background/background.component';
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
