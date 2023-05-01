@@ -1,4 +1,4 @@
-#menu{
+.menu{
     position: absolute;
     width: 1170px;
     height: 38px;
@@ -14,11 +14,12 @@ top: 42px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 24px;
 /* identical to box height */
 color: #2D2D2D;
     }
+
     .logo{
         position: absolute;
         width: 99px;
@@ -27,8 +28,8 @@ color: #2D2D2D;
         top: 40px;
         font-family: 'Lato';
         font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
+        font-weight: 600;
+        font-size: 20px;
         line-height: 29px;
         /* identical to box height */
         
@@ -46,7 +47,7 @@ top: 42px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 24px;
 /* identical to box height */
 
@@ -59,11 +60,10 @@ color: #2D2D2D;
      height: 24px;
      left: 642px;
      top: 42px;
-     
      font-family: 'Lato';
      font-style: normal;
      font-weight: 400;
-     font-size: 20px;
+     font-size: 15px;
      line-height: 24px;
      /* identical to box height */
      
@@ -76,11 +76,10 @@ color: #2D2D2D;
      height: 24px;
      left: 745px;
      top: 42px;
-     
      font-family: 'Lato';
      font-style: normal;
      font-weight: 400;
-     font-size: 20px;
+     font-size: 15px;
           }
           .bt5{
             position: absolute;
@@ -91,7 +90,7 @@ top: 42px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 24px;
 /* identical to box height */
 color: #2D2D2D;
@@ -106,8 +105,30 @@ color: #2D2D2D;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 24px;
 /* identical to box height */
+color: #2D2D2D;
+           }
+           .search{
+           position: absolute;
+           width: 135px;
+           height: 38px;
+           left: 1170px;
+           top: 35px;
+           }
+           .hit{
+           position: absolute;
+width: 82px;
+height: 12px;
+left: 1210px;
+top: 48px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
 color: #2D2D2D;
            }
