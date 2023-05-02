@@ -7,6 +7,8 @@ import { BackgroundComponent } from './background/background.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RecepieComponent } from './recepie/recepie.component';
 import { AboutComponent } from './about/about.component';
+import { AdsComponent } from './ads/ads.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutComponent } from './about/about.component';
     MenuComponent,
     BackgroundComponent,
     RecepieComponent,
-    AboutComponent
+    AboutComponent,
+    AdsComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
