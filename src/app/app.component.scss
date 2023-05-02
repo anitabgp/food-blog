@@ -225,7 +225,70 @@
    text-align: center;
    color: #FFFFFF;
  }
+ #time{
+  position: absolute;
+width: 86px;
+height: 16px;
+left: 677px;
+top: 422px;
 
+ }
+ .minutes{
+ position: absolute;
+ width: 64px;
+ height: 14px;
+ left: 699px;
+ top: 423px;
+  font-family: 'Lato';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 100.9%;
+ /* or 14px */
+  color: #FFFFFF;
+}
+ #author{
+ position: absolute;
+width: 91px;
+height: 16px;
+left: 800px;
+top: 422px;
+ }
+ .luis{
+ position: absolute;
+width: 69px;
+height: 14px;
+left: 822px;
+top: 423px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 100.9%;
+/* or 14px */
+color: #FFFFFF;
+ }
+ #mostpprecepie{
+  position: absolute;
+width: 870px;
+height: 820px;
+left: 135px;
+top: 967px;
+ }
+ .mprecepie{
+  position: absolute;
+width: 360px;
+height: 42px;
+left: 135px;
+top: 967px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 100.9%;
+/* or 36px */
+color: #2D2D2D;
+ }
  footer {
   height: 500px;
   margin-top: 300px;
