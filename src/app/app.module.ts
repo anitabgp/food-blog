@@ -9,6 +9,8 @@ import { RecepieComponent } from './recepie/recepie.component';
 import { AboutComponent } from './about/about.component';
 import { AdsComponent } from './ads/ads.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { FoodComponent } from './food/food.component';
+import { RecepielatestComponent } from './recepielatest/recepielatest.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     RecepieComponent,
     AboutComponent,
     AdsComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    FoodComponent,
+    RecepielatestComponent
   ],
   imports: [
     BrowserModule,
