@@ -1,211 +1,229 @@
- 
-  
- .backgrndimage{
-  position: absolute;
-  width: 1440px;
-  height: 636px;
-  left: 0px;
-  top: 116px;
-  bottom: 116px;
-  right:0px;
-  background-repeat: no-repeat;
-}
-
-.logo{
-position: absolute;
-width: 99px;
-height: 29px;
-left: 135px;
-top: 40px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 29px;
-/* identical to box height */
-
-text-transform: uppercase;
-
-color: #FE4A51;
-}
-
-
-* {
-  box-sizing: border-box; 
+ .backgrndimage {
+   position: absolute;
+   width: 1440px;
+   height: 636px;
+   left: 0px;
+   top: 116px;
+   bottom: 116px;
+   right: 0px;
+   background-repeat: no-repeat;
  }
+
+ .logo {
+   position: absolute;
+   width: 99px;
+   height: 29px;
+   left: 135px;
+   top: 40px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 29px;
+   /* identical to box height */
+
+   text-transform: uppercase;
+
+   color: #FE4A51;
+ }
+
+
+ * {
+   box-sizing: border-box;
+ }
+
  body {
    margin: 0;
  }
+
  #main {
    display: flex;
    min-height: calc(100vh - 40vh);
  }
- #main > article {
+
+ #main>article {
    flex: 1;
  }
- #main > nav, 
- #main > aside {
+
+ #main>nav,
+ #main>aside {
    flex: 0 0 20vw;
    background: rgb(255, 255, 249);
  }
- #main > nav {
+
+ #main>nav {
    order: -1;
  }
- header, footer, article, nav, aside {
+
+ header,
+ footer,
+ article,
+ nav,
+ aside {
    padding: 1em;
  }
- header, footer {
-  background: rgb(255, 255, 249);
+
+ header,
+ footer {
+   background: rgb(255, 255, 249);
    height: 20vh;
  }
-  
-  #mainArticle { 
-    grid-area: article;      
-    }
-  #mainNav { 
-    grid-area: nav; 
-    }
-  #siteAds { 
-    grid-area: ads; 
-    }
-    
-    .menu{
-    position: absolute;
-    width: 1170px;
-    height: 38px;
+
+ #mainArticle {
+   grid-area: article;
+ }
+
+ #mainNav {
+   grid-area: nav;
+ }
+
+ #siteAds {
+   grid-area: ads;
+ }
+
+ .menu {
+   position: absolute;
+   width: 1170px;
+   height: 38px;
    left: 135px;
-     top: 35px;
-    }
-    #heroseation{
-      position: absolute;
-      width: 1440px;
-      height: 832px;
-      left: 0px;
-      top: 35px;
-        }
-    .image1{
-    position: absolute;
-width: 1170px;
-height: 231px;
-left: 135px;
-top: 636px;
-    }
-    .rectangle4
-{
-  box-sizing: border-box;
-  position: absolute;
-  width: 285px;
-  height: 230px;
-  left: 135px;
-  top: 637px;  
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-  border: 5px solid #FFFFFF;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
-  }
-    
-    .rectangle5{
-box-sizing: border-box;
-position: absolute;
-width: 285px;
-height: 230px;
-left: 430px;
-top: 636px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-border: 5px solid #FFFFFF;
-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
-    }
-    .rectangle6{
-box-sizing: border-box;
-position: absolute;
-width: 285px;
-height: 230px;
-left: 725px;
-top: 636px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-border: 5px solid #FFFFFF;
-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
-    }
-    .rectangle7{
-box-sizing: border-box;
-position: absolute;
-width: 285px;
-height: 230px;
-left: 1020px;
-top: 636px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-border: 5px solid #FFFFFF;
-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
-    }
-    #mexicangrilled{
-      position: absolute;
-width: 529px;
-height: 264px;
-left: 456px;
-top: 244px;
+   top: 35px;
+ }
 
-    }
-    .mexicantext{
-    position: absolute;
-    width: 529px;
-    height: 146px;
-    left: 456px;
-    top: 244px;
-    
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 100.9%;
-    /* or 73px */
-    
-    text-align: center;
-      color: #FFFFFF;
-  } 
-  #rectangle9{ 
-  position: absolute;
-width: 124px;
-height: 38px;
-left: 658px;
-top: 470px;
-background: #FE4A51;
-  }
-  .viewrecepie{
-  position: absolute;
-width: 82px;
-height: 14px;
-left: 679px;
-top: 482px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 100.9%;
-/* or 14px */
-color: #FFFFFF;
-}    
-      #service  {
-position: absolute;
-width: 90px;
-height: 16px;
-left: 550px;
-top: 422px;
-}
-  .Servicing
-  {
-position: absolute;
-width: 68px;
-height: 14px;
-left: 572px;
-top: 423px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 100.9%;
-/* or 14px */
-text-align: center;
-color: #FFFFFF;
-} 
-    
+ #heroseation {
+   position: absolute;
+   width: 1440px;
+   height: 832px;
+   left: 0px;
+   top: 35px;
+ }
 
-     
+ .image1 {
+   position: absolute;
+   width: 1170px;
+   height: 231px;
+   left: 135px;
+   top: 636px;
+ }
+
+ .rectangle4 {
+   box-sizing: border-box;
+   position: absolute;
+   width: 285px;
+   height: 230px;
+   left: 135px;
+   top: 637px;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+   border: 5px solid #FFFFFF;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+ }
+
+ .rectangle5 {
+   box-sizing: border-box;
+   position: absolute;
+   width: 285px;
+   height: 230px;
+   left: 430px;
+   top: 636px;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+   border: 5px solid #FFFFFF;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+ }
+
+ .rectangle6 {
+   box-sizing: border-box;
+   position: absolute;
+   width: 285px;
+   height: 230px;
+   left: 725px;
+   top: 636px;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+   border: 5px solid #FFFFFF;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+ }
+
+ .rectangle7 {
+   box-sizing: border-box;
+   position: absolute;
+   width: 285px;
+   height: 230px;
+   left: 1020px;
+   top: 636px;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+   border: 5px solid #FFFFFF;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+ }
+
+ #mexicangrilled {
+   position: absolute;
+   width: 529px;
+   height: 264px;
+   left: 456px;
+   top: 244px;
+
+ }
+
+ .mexicantext {
+   position: absolute;
+   width: 529px;
+   height: 146px;
+   left: 456px;
+   top: 244px;
+
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 100.9%;
+   /* or 73px */
+
+   text-align: center;
+   color: #FFFFFF;
+ }
+
+ #rectangle9 {
+   position: absolute;
+   width: 124px;
+   height: 38px;
+   left: 658px;
+   top: 470px;
+   background: #FE4A51;
+ }
+
+ .viewrecepie {
+   position: absolute;
+   width: 82px;
+   height: 14px;
+   left: 679px;
+   top: 482px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 100.9%;
+   /* or 14px */
+   color: #FFFFFF;
+ }
+
+ #service {
+   position: absolute;
+   width: 90px;
+   height: 16px;
+   left: 550px;
+   top: 422px;
+ }
+
+ .Servicing {
+   position: absolute;
+   width: 68px;
+   height: 14px;
+   left: 572px;
+   top: 423px;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 100.9%;
+   /* or 14px */
+   text-align: center;
+   color: #FFFFFF;
+ }
