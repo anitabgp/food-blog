@@ -13,6 +13,7 @@ import { FoodComponent } from './food/food.component';
 import { RecepielatestComponent } from './recepielatest/recepielatest.component';
 import { TrendingRecepieComponent } from './trending-recepie/trending-recepie.component';
 import { FooterimgComponent } from './footerimg/footerimg.component';
+import { DocumentComponent } from './document/document.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FooterimgComponent } from './footerimg/footerimg.component';
     FoodComponent,
     RecepielatestComponent,
     TrendingRecepieComponent,
-    FooterimgComponent
+    FooterimgComponent,
+    DocumentComponent
   ],
   imports: [
     BrowserModule,
