@@ -11,6 +11,8 @@ import { AdsComponent } from './ads/ads.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { FoodComponent } from './food/food.component';
 import { RecepielatestComponent } from './recepielatest/recepielatest.component';
+import { TrendingRecepieComponent } from './trending-recepie/trending-recepie.component';
+import { FooterimgComponent } from './footerimg/footerimg.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { RecepielatestComponent } from './recepielatest/recepielatest.component'
     AdsComponent,
     SubscribeComponent,
     FoodComponent,
-    RecepielatestComponent
+    RecepielatestComponent,
+    TrendingRecepieComponent,
+    FooterimgComponent
   ],
   imports: [
     BrowserModule,
