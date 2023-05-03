@@ -1,4 +1,5 @@
- .backgrndimage {
+
+#backgrndimage {
    position: absolute;
    width: 100vw;
    height: 636px;
@@ -42,11 +43,11 @@
    flex: 1;
  }
 
- #main>nav,
- #main>aside {
-   flex: 0 0 20vw;
-   background: #FFFFFF;
- }
+//  #main>nav,
+//  #main>aside {
+//    flex: 0 0 20vw;
+//   //  background: #FFFFFF;
+//  }
 
  #main>nav {
    order: -1;
@@ -60,11 +61,11 @@
 //    padding: 1em;
 //  }
 
- header,
- footer {
-   background: rgb(255, 255, 255);
-   height: 20vh;
- }
+//  header,
+//  footer {
+//    background: rgb(255, 255, 255);
+//    height: 18vh;
+//  }
 
  #mainArticle {
    grid-area: article;
@@ -164,8 +165,31 @@
   top: 1887px;
   background: #FFE5E6;
   }
- footer {
-  height: 500px;
-  margin-top: 300px;
- }
+//  footer {
+  // height: 500px;
+  // margin-top: 300px;
+  // }
 
+footer{
+  position: absolute;
+width: 100%;
+height: 63px;
+left: 0px;
+top: 3477px;
+right:0px;
+background: #2D2D2D;
+}
+.copy{
+  position: absolute;
+width: 325px;
+height: 15px;
+margin-top: 2%;
+left: 573px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 100.9%;
+/* or 15px */
+color: #FFFFFF;
+}

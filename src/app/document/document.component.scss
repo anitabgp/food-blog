@@ -41,6 +41,28 @@ line-height: 100.9%;
 /* or 24px */
 color: #2D2D2D;
   }
+  .list{
+    position: absolute;
+width: 8px;
+height: 8px;
+left: 435px;
+top: 3300px;
+list-style-type: style circle;
+  }
+  .arctext{
+  position: absolute;
+width: 62px;
+height: 15px;
+left: 454px;
+top: 3296px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 100.9%;
+/* or 15px */
+color: rgba(45, 45, 45, 0.6);
+}
   h4{
     position: absolute;
 width: 86px;
