@@ -9,6 +9,13 @@ Placerat posuere mauris ac scelerisque. Gravida id dui arcu nibh </p>
    </ul>
 
 <h4>Recipes</h4>
+<a href="trending-recepie.component.html" [ngClass]="{ 'active': isActive }" aria-pressed="isActive" class="atext1"
+  (click)="toggleActiveState()">BrowseRecepie</a>
+  <a href="recepielatest.component.html" [ngClass]="{ 'active': isActive }" aria-pressed="isActive" class="atext2"
+  (click)="toggleActiveState()"> RecepiePage</a>
+<a href="subscribe.component.html" [ngClass]="{ 'active': isActive }" aria-pressed="isActive" class="atext3"
+(click)="toggleActiveState()">SubmitRecepie</a>
+
 <h2>Newsletter</h2>
 <!-- <span id="textbox" class="textbox"></span> -->
 <span id="nltext2" class="nltext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere mauris</span> 

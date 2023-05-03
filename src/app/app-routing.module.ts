@@ -9,7 +9,8 @@ import { RecepielatestComponent } from './recepielatest/recepielatest.component'
 import { TrendingRecepieComponent } from './trending-recepie/trending-recepie.component';
 import { FooterimgComponent } from './footerimg/footerimg.component';
 import { DocumentComponent } from './document/document.component';
-
+import { AboutComponent } from './about/about.component';
+import { AdsComponent } from './ads/ads.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,8 @@ const routes: Routes = [
   { path: 'trendingrecepie.component', component: TrendingRecepieComponent },
   { path: 'footerimg.component', component: FooterimgComponent },
   { path: 'document.component', component: DocumentComponent },
+  { path: 'about.component', component: AboutComponent },
+  { path: 'ads.component', component: AdsComponent },
 ];
 
 @NgModule({
