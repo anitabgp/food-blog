@@ -1,10 +1,11 @@
 import { Component,OnInit } from '@angular/core';
 import { Router} from '@angular/router';
 
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit{
   constructor(private router: Router) { }
@@ -14,19 +15,19 @@ export class MenuComponent implements OnInit{
     
   }
   onGoTohome() {
-    this.router.navigate(['/background.component']);
+    this.router.navigate(['/background']);
     
   }
 
   onGoTorecepie() {
-    this.router.navigate(['/recepie.component']);
+    this.router.navigate(['/recepie']);
     
   }
   onGoTopages(){
-    this.router.navigate(['/footerimg.component']);
+    this.router.navigate(['/footerimg']);
   }
   onGoToAbout(){
-    this.router.navigate(['/about.component']);
+    this.router.navigate(['/about']);
   }
 
 }
