@@ -16,9 +16,7 @@ const routes: Routes = [
   { path: 'pages', component: DocumentComponent },
   { path: 'about', component: AboutComponent },
   { path: 'ads', component: AdsComponent },
-  {
-    path: 'recepie', loadChildren: () => import('./receipe/recepie.module').then(m => m.ReceipeModule)
-  }
+  { path: 'recepie', loadChildren: () => import('./receipe/recepie.module').then(m => m.ReceipeModule) }
 ];
 
 @NgModule({
