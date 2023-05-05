@@ -1,13 +1,16 @@
 <mat-sidenav-container class="tp-container">
    <mat-sidenav mode="side" opened>
       <section class="tp-section">
+         <button type="button" class="btn3" (click)="onGoToDefault()">Recepie</button>
+      </section>
+      <section class="tp-section">
          <button type="button" class="btn1" (click)="onGoTolatest()">Latest Recepie</button>
       </section>
       <section class="tp-section">
          <button type="button" class="btn2" (click)="onGoTorecepie()">Tranding Recepie</button>
       </section>
-      <section class="tp-section">
-         <button type="button" class="btn3" (click)="onGoToAbout()">About</button>
-      </section>
    </mat-sidenav>
+   <mat-sidenav-content>
+      <router-outlet> </router-outlet>
+      </mat-sidenav-content>
 </mat-sidenav-container>

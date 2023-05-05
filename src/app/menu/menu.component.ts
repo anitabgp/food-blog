@@ -24,7 +24,7 @@ export class MenuComponent implements OnInit{
     
   }
   onGoTopages(){
-    this.router.navigate(['/footerimg']);
+    this.router.navigate(['/pages']);
   }
   onGoToAbout(){
     this.router.navigate(['/about']);

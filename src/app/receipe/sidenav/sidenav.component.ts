@@ -13,19 +13,16 @@ export class SidenavComponent implements OnInit {
   ngOnInit(): void {
   }
   onGoTolatest() {
-    this.router.navigate(['/recepielatest']);
+    this.router.navigate(['/recepie/latest']);
     
   }
 
   onGoTorecepie() {
-    this.router.navigate(['/recepie']);
+    this.router.navigate(['/recepie/trending']);
     
   }
-  onGoTopages(){
-    this.router.navigate(['/footerimg']);
-  }
-  onGoToAbout(){
-    this.router.navigate(['/about']);
+  onGoToDefault(){
+    this.router.navigate(['/recepie']);
   }
 
   }

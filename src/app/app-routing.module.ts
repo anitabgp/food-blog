@@ -13,9 +13,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: BackgroundComponent },
   { path: 'food', component: FoodComponent },
-  { path: 'recepie', component: RecepieComponent },
   { path: 'subscribe', component: SubscribeComponent },
-  { path: 'document', component: DocumentComponent },
+  { path: 'pages', component: DocumentComponent },
   { path: 'about', component: AboutComponent },
   { path: 'ads', component: AdsComponent },
   {
