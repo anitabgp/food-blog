@@ -1,5 +1,5 @@
-import { Component,OnInit } from '@angular/core';
-import { Router} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -7,26 +7,29 @@ import { Router} from '@angular/router';
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss'],
 })
-export class MenuComponent implements OnInit{
+export class MenuComponent implements OnInit {
+
   constructor(private router: Router) { }
 
 
   ngOnInit(): void {
-    
   }
+
   onGoTohome() {
     this.router.navigate(['/']);
-    
+
   }
 
   onGoTorecepie() {
     this.router.navigate(['/recepie']);
-    
+
   }
-  onGoTopages(){
+  
+  onGoTopages() {
     this.router.navigate(['/pages']);
   }
-  onGoToAbout(){
+
+  onGoToAbout() {
     this.router.navigate(['/about']);
   }
 
