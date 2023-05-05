@@ -12,7 +12,6 @@ import { FoodComponent } from './food/food.component';
 import { FooterimgComponent } from './footerimg/footerimg.component';
 import { DocumentComponent } from './document/document.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SidenavComponent } from './sidenav/sidenav.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -25,8 +24,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SubscribeComponent,
     FoodComponent,
     FooterimgComponent,
-    DocumentComponent,
-    SidenavComponent,
+    DocumentComponent
 
   ],
   imports: [

@@ -15,7 +15,7 @@ export class MenuComponent implements OnInit{
     
   }
   onGoTohome() {
-    this.router.navigate(['/background']);
+    this.router.navigate(['/home']);
     
   }
 
