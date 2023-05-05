@@ -15,20 +15,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  onGoTolatest() {
-    this.router.navigate(['/recepielatest']);
-    
-  }
 
-  onGoTorecepie() {
-    this.router.navigate(['/recepie']);
-    
-  }
-  onGoTopages(){
-    this.router.navigate(['/footerimg']);
-  }
-  onGoToAbout(){
-    this.router.navigate(['/about']);
-  }
 
 }
