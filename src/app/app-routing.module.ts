@@ -10,8 +10,7 @@ import { AdsComponent } from './ads/ads.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: BackgroundComponent },
+  { path: '', component: BackgroundComponent },
   { path: 'food', component: FoodComponent },
   { path: 'subscribe', component: SubscribeComponent },
   { path: 'pages', component: DocumentComponent },
