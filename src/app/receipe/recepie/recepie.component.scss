@@ -123,4 +123,19 @@
   top: 1024px;
   border: 1px solid #2D2D2D;
   }
+  .tp-container {
+    position:fixed;
    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 135px;
+    background: #eee;
+ }
+ .tp-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 600px;
+    width:100px;   
+ }
