@@ -174,11 +174,11 @@
   // }
 
 footer{
-  // position: absolute;
+  position: absolute;
 width: 100%;
 height: 63px;
 left: 0px;
-top: 3477px;
+margin-top: 98%;
 right:0px;
 background: #2D2D2D;
 }
@@ -186,29 +186,13 @@ background: #2D2D2D;
   // position: absolute;
 width: 325px;
 height: 15px;
-margin-top: 2%;
-left: 573px;
+left: 750px;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
-line-height: 100.9%;
+
 /* or 15px */
 color: #FFFFFF;
-}
-.tp-container {
-  position: relative;
-     top: 150px;
-  bottom: 0;
-  left: 0;
-  width:100%; 
-}
- .tp-section {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  height: 60px;
-  top: 150px;
-  margin-left: 20px;
- 
+text-align: center;
 }
