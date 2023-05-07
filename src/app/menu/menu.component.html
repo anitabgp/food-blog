@@ -1,12 +1,14 @@
 <div class="menu">
-  <button type="button" class="logo">FOOBLO</button>
+  <span id="logo" class="logo">FOO</span>
+  <span id="logo" class="logob">BLO</span>
   <button type="button" class="btn1" (click)="onGoTohome()">Home</button>
-  <button type="button" class="btn2" (click)="onGoTorecepie()">Recepie</button>
+    <button type="button" class="btn2" (click)="onGoTorecepie()">Recepie</button>
   <button type="button" class="btn3" (click)="onGoTopages()">Pages</button>
   <button type="button" class="btn4" (click)="onGoToAbout()">About Me</button>
-  <button type="button" class="btn5">Blog</button>
-  <button type="button" class="btn6">Contact</button>
-  <button type="button" class="search">Search</button>
+  <button type="button" class="btn5" (click)="onGoToBlog()">Blog</button>
+  <button type="button" class="btn6" (click)="onGoTosub()">Contact</button>
+  <input type="textbox" class="text1" name="text1">
+    <span id="search" class="search">Search</span>
 </div>
 <!-- <a routerLink="/register.component" routerLinkActive="active">Register</a> -->
 <!-- <router-outlet></router-outlet> -->

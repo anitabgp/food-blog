@@ -31,8 +31,14 @@ export class MenuComponent implements OnInit {
 
   onGoToAbout() {
     this.router.navigate(['/about']);
+    
   }
-
+  
+  onGoToBlog() {
+    this.router.navigate(['/footerimg']);
 }
 
-
+onGoTosub() {
+  this.router.navigate(['/subscribe']);
+}
+}

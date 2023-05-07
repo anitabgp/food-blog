@@ -8,7 +8,7 @@
 
 .btn1 {
   position: absolute;
-  width: 54px;
+  width: 88px;
   height: 24px;
   left: 417px;
   top: 42px;
@@ -16,9 +16,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
+    text-align: center;
   /* identical to box height */
   color: #2D2D2D;
+  border: #2D2D2D;
 }
 
 .logo {
@@ -33,33 +34,44 @@
   font-size: 20px;
   line-height: 29px;
   /* identical to box height */
-
   text-transform: uppercase;
-
   color: #FE4A51;
+}
+.logob {
+  position: absolute;
+  width: 99px;
+  height: 29px;
+  left: 180px;
+  top: 40px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #0c0606;
 }
 
 .btn2 {
   position: absolute;
-  width: 69px;
+  width: 88px;
   height: 24px;
-  left: 522px;
+  left: 530px;
   top: 42px;
-
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
-  /* identical to box height */
-
+    /* identical to box height */
+  text-align: center;
   color: #2D2D2D;
-
+  border: #2D2D2D;
 }
 
 .btn3 {
   position: absolute;
-  width: 52px;
+  width: 88px;
   height: 24px;
   left: 642px;
   top: 42px;
@@ -67,62 +79,75 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
-  /* identical to box height */
-
-
+    /* identical to box height */
+  text-align: center;
   color: #2D2D2D;
+  border: #2D2D2D;
 }
 
 .btn4 {
   position: absolute;
   width: 88px;
   height: 24px;
-  left: 745px;
+  left: 755px;
   top: 42px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  text-align: center;
+  color: #2D2D2D;
+  border: #2D2D2D;
 }
 
 .btn5 {
   position: absolute;
-  width: 40px;
+  width: 88px;
   height: 24px;
-  left: 884px;
+  left: 870px;
   top: 42px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
-  /* identical to box height */
-  color: #2D2D2D;
-
+    /* identical to box height */
+    color: #2D2D2D;
+    border: #2D2D2D;
+  text-align: center;
 }
 
 .btn6 {
   position: absolute;
-  width: 71px;
+  width: 88px;
   height: 24px;
-  left: 975px;
+  left: 985px;
   top: 42px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
-  /* identical to box height */
-  color: #2D2D2D;
+   /* identical to box height */
+   color: #2D2D2D;
+   border: #2D2D2D;
+  text-align: center;
 }
-
+.text1{
+  position: absolute;
+width: 180px;
+height: 26px;
+left: 1105px;
+top: 35px;
+color: #2D2D2D;
+  
+}
 .search {
   position: absolute;
   width: 135px;
   height: 38px;
-  left: 1170px;
-  top: 35px;
+  left: 1145px;
+  top: 45px;
+  color: #2D2D2D;
+ 
 }
 .example-stretched-tabs {
   max-width: 100%;

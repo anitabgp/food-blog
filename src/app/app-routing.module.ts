@@ -7,6 +7,7 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
 import { DocumentComponent } from './document/document.component';
 import { AboutComponent } from './about/about.component';
 import { AdsComponent } from './ads/ads.component';
+import { FooterimgComponent } from './footerimg/footerimg.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'pages', component: DocumentComponent },
   { path: 'about', component: AboutComponent },
   { path: 'ads', component: AdsComponent },
+  { path: 'footerimg', component: FooterimgComponent },
   { path: 'recepie', loadChildren: () => import('./receipe/recepie.module').then(m => m.ReceipeModule) }
 ];
 

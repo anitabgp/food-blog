@@ -1,23 +1,30 @@
+div{
+  align-content: center;
+}
 .auth{
     position: absolute;
-    width: 61px;
+    width: 65px;
     height: 24px;
-    left: 1035px;
-    top: 976px;
+    align-content: center;
+    left: 45%;
+    right:45%;
+    top: 145px;
       font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 100.9%;
+    text-align: center;
     /* or 18px */
       color: #2D2D2D;
    }
   .chefimg{
-    position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 1070px;
-  top: 1047px;
+    position: relative;
+  width: 250px;
+  height: 300px;
+  left: 42%;
+  right: 42%;
+  top: 195px;
   background: 
    drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.15));
   }
@@ -25,13 +32,15 @@
     position: absolute;
   width: 130px;
   height: 30px;
-  left: 1105px;
-  top: 1270px;
+  left: 45%;
+  right:45%;
+  top: 500px;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 100.9%;
+  text-align: center;
   /* or 24px */
   color: #2D2D2D;
   }
@@ -39,8 +48,9 @@
     position: absolute;
   width: 219px;
   height: 70px;
-  left: 1061px;
-  top: 1315px;
+  left: 42%;
+  right:42%;
+  top: 525px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
@@ -54,13 +64,15 @@
     position: absolute;
   width: 163px;
   height: 18px;
-  left: 1035px;
-  top: 1410px;
+  left: 45%;
+  right:45%;
+  top: 600px;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 100.9%;
+  text-align: center;
   /* or 18px */
   color: #2D2D2D;
   }
@@ -69,31 +81,26 @@
     position: absolute;
   width: 133px;
   height: 43px;
-  left: 1035px;
-  top: 1468px;
+  left: 42%;
+  right:42%;
+  top: 625px;
+  align-items: center;
   background: #DEDADA;
   border-color: #DEDADA;
   }
-  .rect27vect{
-    position: absolute;
-  left: 29.17%;
-  right: 25%;
-  top: 8.33%;
-  bottom: 8.33%;
-  border: 1px solid #FE4A51;
-  
-  }
-  .rect27text{
+    .rect27text{
     position: absolute;
   width: 60px;
   height: 12px;
-  left: 1083px;
-  top: 1484px;
+  left: 45%;
+  right:45%;
+   top: 640px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
+  text-align: center;
   /* identical to box height */
   color: #000000;
   }
@@ -101,16 +108,18 @@
   position: absolute;
 width: 270px;
 height: 0px;
-left: 1035px;
-top: 1024px;
+left: 40%;
+right: 40%;
+top: 165px;
 border: 1px solid #2D2D2D;
   }
   .subsfollow1{
     position: absolute;
 width: 133px;
 height: 43px;
-left: 1172px;
-top: 1468px;
+left: 52%;
+  right:42%;
+top: 625px;
 background: #DEDADA;
 border-color: #DEDADA;
   }
@@ -118,8 +127,9 @@ border-color: #DEDADA;
   position: absolute;
 width: 133px;
 height: 43px;
-left: 1035px;
-top: 1515px;
+left: 42%;
+  right:42%;
+top: 675px;
 background: #DEDADA;
 border-color: #DEDADA;
 }
@@ -127,8 +137,9 @@ border-color: #DEDADA;
     position: absolute;
 width: 133px;
 height: 43px;
-left: 1172px;
-top: 1515px;
+left: 52%;
+  right:42%;
+top: 675px;
 background: #DEDADA;
 border-color: #DEDADA;
    }
@@ -136,13 +147,15 @@ border-color: #DEDADA;
     position: absolute;
 width: 60px;
 height: 12px;
-left: 1220px;
-top: 1484px;
+  left: 55%;
+  right:45%;
+top: 640px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 10px;
 line-height: 12px;
+text-align: center;
 /* identical to box height */
 color: #000000;
    }
@@ -150,13 +163,15 @@ color: #000000;
     position: absolute;
 width: 60px;
 height: 12px;
-left: 1083px;
-top: 1531px;
+left: 45%;
+right:45%;
+top: 690px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 10px;
 line-height: 12px;
+text-align: center;
 /* identical to box height */
 color: #000000;
    }
@@ -164,8 +179,9 @@ color: #000000;
     position: absolute;
 width: 45px;
 height: 12px;
-left: 1220px;
-top: 1531px;
+left: 55%;
+right:45%;
+top: 690px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
