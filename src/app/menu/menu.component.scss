@@ -1,4 +1,7 @@
 #menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
    position: relative;
   width: 100vh;
   height: 35px;
@@ -170,7 +173,7 @@ color: #2D2D2D;
   color: #2D2D2D;
 }
 @media (max-width: 600px), screen and (orientation: portrait) {
-  .menu-container {
+  #menu-container {
     position: relative;
     width: 100vh;
     height: 35px;
