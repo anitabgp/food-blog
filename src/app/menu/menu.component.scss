@@ -1,5 +1,5 @@
-.menu {
-  position: absolute;
+#menu{
+   position: relative;
   width: 100vh;
   height: 35px;
   left: 135px;
@@ -7,7 +7,7 @@
 }
 
 .btn1 {
-  position: absolute;
+  position: relative;
   width: 88px;
   height: 24px;
   left: 417px;
@@ -23,7 +23,7 @@
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   width: 99px;
   height: 29px;
   left: 135px;
@@ -38,7 +38,7 @@
   color: #FE4A51;
 }
 .logob {
-  position: absolute;
+  position: relative;
   width: 99px;
   height: 29px;
   left: 180px;
@@ -52,9 +52,9 @@
   text-transform: uppercase;
   color: #0c0606;
 }
-
+  
 .btn2 {
-  position: absolute;
+  position: relative;
   width: 88px;
   height: 24px;
   left: 530px;
@@ -70,7 +70,7 @@
 }
 
 .btn3 {
-  position: absolute;
+  position:relative;
   width: 88px;
   height: 24px;
   left: 642px;
@@ -86,7 +86,7 @@
 }
 
 .btn4 {
-  position: absolute;
+  position: relative;
   width: 88px;
   height: 24px;
   left: 755px;
@@ -101,7 +101,7 @@
 }
 
 .btn5 {
-  position: absolute;
+  position: relative;
   width: 88px;
   height: 24px;
   left: 870px;
@@ -117,7 +117,7 @@
 }
 
 .btn6 {
-  position: absolute;
+  position: relative;
   width: 88px;
   height: 24px;
   left: 985px;
@@ -132,7 +132,7 @@
   text-align: center;
 }
 .text1{
-  position: absolute;
+  position: relative;
 width: 180px;
 height: 26px;
 left: 1105px;
@@ -141,7 +141,7 @@ color: #2D2D2D;
   
 }
 .search {
-  position: absolute;
+  position: relative;
   width: 135px;
   height: 38px;
   left: 1145px;
@@ -155,7 +155,7 @@ color: #2D2D2D;
 
 
 .hit {
-  position: absolute;
+  position: relative;
   width: 82px;
   height: 12px;
   left: 1210px;
@@ -169,3 +169,160 @@ color: #2D2D2D;
 
   color: #2D2D2D;
 }
+@media (max-width: 600px), screen and (orientation: portrait) {
+  .menu-container {
+    position: relative;
+    width: 100vh;
+    height: 35px;
+    left: 135px;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+  }     
+  
+.btn1 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  left: 417px;
+  top: 42px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+    text-align: center;
+  /* identical to box height */
+  color: #2D2D2D;
+  border: #2D2D2D;
+}
+
+.logo {
+  position: relative;
+  width: 99px;
+  height: 29px;
+  left: 135px;
+  top: 40px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #FE4A51;
+}
+.logob {
+  position: relative;
+  width: 99px;
+  height: 29px;
+  left: 180px;
+  top: 40px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #0c0606;
+}
+  
+.btn2 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  left: 530px;
+  top: 42px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+    /* identical to box height */
+  text-align: center;
+  color: #2D2D2D;
+  border: #2D2D2D;
+}
+
+.btn3 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  left: 642px;
+  top: 42px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+    /* identical to box height */
+  text-align: center;
+  color: #2D2D2D;
+  border: #2D2D2D;
+}
+
+.btn4 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  left: 755px;
+  top: 42px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #2D2D2D;
+  border: #2D2D2D;
+}
+
+.btn5 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  left: 870px;
+  top: 42px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+    /* identical to box height */
+    color: #2D2D2D;
+    border: #2D2D2D;
+  text-align: center;
+}
+
+.btn6 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  left: 985px;
+  top: 42px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+   /* identical to box height */
+   color: #2D2D2D;
+   border: #2D2D2D;
+  text-align: center;
+}
+.text1{
+  position: relative;
+width: 180px;
+height: 26px;
+left: 1105px;
+top: 35px;
+color: #2D2D2D;
+  
+}
+.search {
+  position: relative;
+  width: 135px;
+  height: 38px;
+  left: 1145px;
+  top: 45px;
+  color: #2D2D2D;
+ 
+  }
+   }
+     
