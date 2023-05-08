@@ -1,5 +1,6 @@
-import { Component ,OnInit} from '@angular/core';
+import { Component ,OnInit, ChangeDetectorRef} from '@angular/core';
 import { Router} from '@angular/router';
+import {MediaMatcher} from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-sidenav',
@@ -7,22 +8,29 @@ import { Router} from '@angular/router';
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent implements OnInit {
-  constructor(private router: Router) { }
+  mobileQuery: MediaQueryList;
+  navLinks = [{
+    name: "Recepie",
+    href: "/recepie"
+  },
+  {
+    name: "Latest Recepie",
+    href: "/recepie/latest"
+  },
+  {
+    name: "Tranding Recepie",
+    href: "/recepie/trending"
+  }
+];
+private _mobileQueryListener: () => void;
+  constructor(private router: Router,changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) {
+    this.mobileQuery = media.matchMedia('(max-width: 600px)');
+    this._mobileQueryListener = () => changeDetectorRef.detectChanges();
+    this.mobileQuery.addListener(this._mobileQueryListener);
+   }
 
 
   ngOnInit(): void {
-  }
-  onGoTolatest() {
-    this.router.navigate(['/recepie/latest']);
-    
-  }
-
-  onGoTorecepie() {
-    this.router.navigate(['/recepie/trending']);
-    
-  }
-  onGoToDefault(){
-    this.router.navigate(['/recepie']);
   }
 
   }
