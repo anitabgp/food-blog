@@ -183,10 +183,12 @@ right:0px;
 background: #2D2D2D;
 }
 .copy{
-  // position: absolute;
-width: 325px;
-height: 15px;
-left: 750px;
+ position: absolute;
+// width: 325px;
+// height: 15px;
+justify-content: center;
+left: 40%;
+align-items: center;
 font-family: 'Lato';
 font-style: normal;
 font-weight: 400;
