@@ -2,8 +2,9 @@
     <span id="auth" class="auth">Author</span>
     <hr>
 <img src="assets\chef.jpeg" class="chefimg">
-   <span id="luis2" class="luis2">Luice Fonci</span>
-   <span id="textlorem" class="textlorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, cursus velit commodo</span>
+<ng-container *ngIf="aboutdata; else notFound">
+   <span id="luis2" class="luis2">{{aboutdata.name}}</span>
+   <span id="textlorem" class="textlorem">{{aboutdata.details}}</span>
    <span id="subsfollow" class="subsfollow">Subscribe & Follow</span>
    <button type="button" class="rect27"></button>  
    <span id="rect27text" class="rect27text">Follow me on</span>
@@ -13,4 +14,6 @@
    <span id="fl2" class="fl2">Follow me on</span>
    <button type="button" class="subfollow3"></button>  
    <span id="fl3" class="fl3">Subscribe</span>
-  </div>
+</ng-container>
+<ng-template #notFound><div>Error occured : No Data</div> 
+  </ng-template>

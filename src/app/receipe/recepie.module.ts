@@ -7,6 +7,7 @@ import { RecepielatestComponent } from './recepielatest/recepielatest.component'
 import { TrendingRecepieComponent } from './trending-recepie/trending-recepie.component';
 import { ReceipeHomeComponent } from './receipe-home/receipe-home.component';
 import { MaterialModule } from '../material/material.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MaterialModule } from '../material/material.module';
   imports: [
     CommonModule,
     MaterialModule,
+    HttpClientModule,
     ReceipeRoutingModule
   ]
 })
