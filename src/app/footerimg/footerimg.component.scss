@@ -1,91 +1,105 @@
-.card3{
-position: absolute;
-width: 1440px;
-height: 291px;
-left: 0px;
-top: 135px;
-}
-.fimg1{
-    position: absolute;
-width: 288px;
-height: 255px;
-left: 0px;
-top: 135px;
-background:#2D2D2D;
-}
-.fimg2{
-    position: absolute;
-width: 288px;
-height: 255px;
-left: 288px;
-top: 135px;
-background:#2D2D2D;
-}
-.fimg3{
-    position: absolute;
-width: 288px;
-height: 255px;
-left: 576px;
-top: 135px;
-background:#2D2D2D;
-}
-.fimg4{
-    position: absolute;
-    width: 288px;
-    height: 255px;
-    left: 864px;
-    top: 135px;
-    background:#2D2D2D; 
-}
-.fimg5{
-    position: absolute;
-width: 288px;
-height: 255px;
-left: 1152px;
-top: 135px;
-background: #2D2D2D;
-}
-.circle{
-    position: absolute;
-width: 138px;
-height: 138px;
-left: 651px;
-top: 185px;
-}
-.cirtext1{
-    position: absolute;
-width: 64px;
-height: 15px;
-left: 689px;
-top: 230px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 108.9%;
-/* or 15px */
-text-align: center;
-color: #FFFFFF;
-}
-.cirtext2{
-    position: absolute;
-width: 82px;
-height: 20px;
-left: 689px;
-top: 245px;
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 108.9%;
-/* identical to box height, or 20px */
-color: #FFFFFF;
-}
-.cirlogo{
-    position: absolute;
-left: 33.51%;
-right: 33.15%;
-top: 33.15%;
-bottom: 33.51%;
-border: 2px solid #FFFFFF;
-}
+
+ .grid { 
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: stretch;
+  justify-items: center;
+    }
+  .grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    max-width: 100%;
+   
+  }
+// .card3{
+// position: absolute;
+// width: 1440px;
+// height: 291px;
+// left: 0px;
+// top: 135px;
+// }
+// .fimg1{
+//     position: absolute;
+// width: 288px;
+// height: 255px;
+// left: 0px;
+// top: 135px;
+// background:#2D2D2D;
+// }
+// .fimg2{
+//     position: absolute;
+// width: 288px;
+// height: 255px;
+// left: 288px;
+// top: 135px;
+// background:#2D2D2D;
+// }
+// .fimg3{
+//     position: absolute;
+// width: 288px;
+// height: 255px;
+// left: 576px;
+// top: 135px;
+// background:#2D2D2D;
+// }
+// .fimg4{
+//     position: absolute;
+//     width: 288px;
+//     height: 255px;
+//     left: 864px;
+//     top: 135px;
+//     background:#2D2D2D; 
+// }
+// .fimg5{
+//     position: absolute;
+// width: 288px;
+// height: 255px;
+// left: 1152px;
+// top: 135px;
+// background: #2D2D2D;
+// }
+// .circle{
+//     position: absolute;
+// width: 138px;
+// height: 138px;
+// left: 651px;
+// top: 185px;
+// }
+// .cirtext1{
+//     position: absolute;
+// width: 64px;
+// height: 15px;
+// left: 689px;
+// top: 230px;
+// font-family: 'Lato';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 14px;
+// line-height: 108.9%;
+// /* or 15px */
+// text-align: center;
+// color: #FFFFFF;
+// }
+// .cirtext2{
+//     position: absolute;
+// width: 82px;
+// height: 20px;
+// left: 689px;
+// top: 245px;
+// font-family: 'Lato';
+// font-style: normal;
+// font-weight: 700;
+// font-size: 18px;
+// line-height: 108.9%;
+// /* identical to box height, or 20px */
+// color: #FFFFFF;
+// }
+// .cirlogo{
+//     position: absolute;
+// left: 33.51%;
+// right: 33.15%;
+// top: 33.15%;
+// bottom: 33.51%;
+// border: 2px solid #FFFFFF;
+// }
